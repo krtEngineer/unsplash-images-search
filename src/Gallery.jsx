@@ -19,7 +19,7 @@ const Gallery = () => {
       </div>
     );
   }
-  if (data.length < 1) {
+  if (data.results.length < 1) {
     return (
       <div className="gallery-container">
         <h4>no result found</h4>
